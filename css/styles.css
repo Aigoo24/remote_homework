@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: Nunito;
+    src: url("../fonts/Nunitobold.woff");
+}
+
+body{
+    height: 100vh;
+    background: linear-gradient(
+            to right,
+            white 0%,
+            white 50%,
+            #F8F8FA 50%,
+            #F8F8FA 100%
+    );
+    font-family: "Nunito", sans-serif;
+
+}
+.logo{
+    text-align: center;
+    margin: 27px 0 112px 0;
+}
+.container{
+    max-width: 1150px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 191px;
+}
+
+.form-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 452px;
+}
+
+.form-title{
+    font-size: 36px;
+    text-align: left;
+    margin-bottom: 7px;
+}
+
+.form-text{
+    font-size: 22px;
+    text-align: left;
+    color: #636363;
+    margin-bottom: 67px;
+
+}
+
+.form-inputs{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-inputs label{
+    font-size: 16px;
+    text-align: left;
+    color: #C6C6C4;
+    font-style: normal;
+    margin-bottom: 5px;
+    line-height: 27px;
+}
+
+.form-input{
+    width: 452px;
+    height: 35px;
+    border: none;
+    border-bottom: 1px solid #C6C6C4;
+    margin-bottom: 20px;
+    outline: none;
+    font-size: 20px;
+}
+
+.block-check label{
+    color: #636363;
+    font-size: 16px;
+}
+.block-check{
+    margin-bottom: 40px;
+}
+.action{
+    margin-left: 124px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    width: 210px;
+    height: 70px;
+    border: none;
+    border-radius: 40px;
+    background-color: #DD3142;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 44px;
+    cursor: pointer;
+}
+.account{
+    font-size: 16px;
+    color: #636363;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.my-popup{
+    display: none;
+    flex-direction: column;
+    border: 1px solid #636363 ;
+    background-color: #F8F8FA;
+    border-radius: 5px;
+    position: fixed;
+    width: 470px;
+    padding: 15px;
+    left: 37%;
+    top: 50%;
+}
+
+.my-popup p{
+    font-size: 16px;
+}
+
+
+.btn-popup{
+    width: 110px;
+    height: 50px;
+    margin-top: 25px;
+    margin-bottom: 0;
+    margin-left: 350px;
+}
