@@ -28,6 +28,7 @@ window.onload = () => {
         }
     }
 
+    //проверка срыисшр
     document.getElementById('button').onclick = function (){
         if(!fullName.value) {
             alert('Заполните поле Full name');
