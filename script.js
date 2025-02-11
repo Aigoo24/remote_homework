@@ -114,3 +114,4 @@ window.onload = () => {
 
 }
 
+console.log("Сообщение от первого разработчика в mytask");
