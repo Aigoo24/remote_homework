@@ -19,6 +19,7 @@ window.onload = () => {
         }
     }
 
+    // dhdwhdi
     agree.onchange = (e)=> {
         if(e.target.checked){
             console.log("Согласен")
