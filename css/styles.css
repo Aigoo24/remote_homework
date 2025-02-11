@@ -115,7 +115,7 @@ body{
 .my-popup{
     display: none;
     flex-direction: column;
-    border: 1px solid #636363 ;
+    border: 1px solid #604e4e ;
     background-color: #F8F8FA;
     border-radius: 5px;
     position: fixed;
