@@ -113,4 +113,4 @@ window.onload = () => {
 
 
 }
-
+console.log("Сообщение от второго разработчика в mytask");
